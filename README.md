@@ -4,14 +4,16 @@ This repository only hosts releases of the Azeroth Survivors Together co-op mod 
 
 ## Install
 1. Download **Azeroth-Survivors-Together-Installer.exe** from the [latest release](../../releases/latest)
-   (about 0.4 MB) and double-click it. No admin rights are needed.
-2. Choose the folder (default: `%LOCALAPPDATA%\Azeroth Survivors Together`). The installer
-   checks the signed release, downloads everything (about 1.4 GB, interrupted downloads
-   continue), checks every file and offers Start menu and desktop shortcuts.
+   (about 0.4 MB), put it where the game should go (e.g. `D:\Games`) and double-click it.
+   No questions, no admin rights.
+2. It installs into the folder **Azeroth Survivors Together** next to itself: it checks the
+   signed release, downloads everything (about 1.4 GB, interrupted downloads continue), checks
+   every file, adds a desktop and Start menu shortcut and opens the folder.
 3. Start the game with **Start-Coop.cmd** (or the shortcut). It keeps itself up to date.
 
-Running the installer on a folder that already holds the game updates it instead of
-reinstalling. You need about 3 GB of free space.
+Put the installer into a folder that already holds the game and it updates that folder instead.
+You need about 3 GB of free space. Folders like Program Files need admin rights: the installer
+then stops with a message, move it to a folder of your own.
 
 ## Update your game folder
 1. Download **Azeroth-Survivors-Together-Updater.exe** from the [latest release](../../releases/latest).
