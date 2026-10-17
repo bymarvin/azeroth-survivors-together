@@ -16,3 +16,7 @@ Everyone in a party needs the same co-op version.
 
 Windows may warn about an unknown publisher because the updater is not code-signed:
 choose "More info" -> "Run anyway".
+
+## Full package
+Your game files are too old for an automatic update. Get the full package from the link in the Discord
+release thread, unpack it and start Start-Coop.cmd.
