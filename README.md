@@ -1,6 +1,6 @@
 # Azeroth Survivors Together - co-op updates
 
-This repository only hosts releases of the Azeroth Survivors Together co-op mod installer and updater.
+This repository hosts releases of the Azeroth Survivors Together co-op mod installer and updater, and the source of the updater (MIT licensed, see below).
 
 ## Install
 1. Download **Azeroth-Survivors-Together-Installer.exe** from the [latest release](../../releases/latest)
@@ -42,3 +42,19 @@ release thread, unpack it and start Start-Coop.cmd.
 
 ## Support
 If you enjoy the mod, you can support the servers and updates here: https://buymeacoffee.com/flobo
+
+## Source code (updater)
+The updater is open source under the [MIT license](LICENSE). It is the version released as 0.0.20.
+
+| Path | What it is |
+|---|---|
+| `coop-lab/updater/exe/` | the Rust exe (`Azeroth-Survivors-Together-Updater.exe`); embeds the Python scripts below |
+| `coop-lab/updater/updater_v2.py`, `game_patch.py` | online updater: signed release description, game files as binary patches |
+| `coop-lab/updater/update.py`, `reconstruction/self_update.py` | file update and self-update |
+| `coop-lab/updater/patchgen/`, `make_game_patches.py` | builds the binary patches for a release |
+| `coop-lab/updater/sign_release.py` | signs a release description (Ed25519; the private key is never part of this repo) |
+| `coop-lab/updater/test_*.py`, `e2e_*.py` | tests against a local fake release server |
+| `coop-lab/build_release_exes.py` | reproducible release build of the exe |
+
+Build the updater exe (Windows, Rust): `cd coop-lab/updater/exe && cargo build --release --bin coop-updater`.
+This covers the updater only; the game files and the mod itself are not part of this repository.

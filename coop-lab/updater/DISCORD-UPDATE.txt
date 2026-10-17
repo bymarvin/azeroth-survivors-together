@@ -1,0 +1,15 @@
+**Azeroth Survivors Together 0.95.0 - co-op update 0.0.11** ({SIZE})
+
+Already have 0.92.0, 0.93.1 or 0.95.0? You don't need the full download.
+1. Close the game and the co-op launcher.
+2. Put `Azeroth-Survivors-Together-0.95.0-update.exe` into your game folder (where `Start-Coop.cmd` is).
+3. Double-click it and wait for `Installed co-op version: 0.0.11`. You can delete the exe afterwards.
+
+It recognises your version, backs up everything it replaces and rolls back automatically if anything fails. Saves, addons and WTF settings are never touched. Everyone in your party needs the same version (older versions can't join).
+Windows may warn about an unknown publisher (the file is not code-signed): "More info" -> "Run anyway". Prefer no exe? Use the update zip: extract it into the game folder and double-click `Update-Coop.cmd`.
+
+Fixes: guest damage crash in late game, guest damage showing as "Melee" on the host's damage meter, invisible guest pets, guest debuffs/DoTs not visible, guest druid forms, and the new "Give up" menu option in co-op.
+
+SHA-256 exe: `{EXE_SHA256}`
+SHA-256 zip: `{SHA256}`
+Coming from co-op 0.0.7-0.0.10 (game 0.84)? Get the full 0.95.0 package instead.
