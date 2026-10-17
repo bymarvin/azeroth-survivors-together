@@ -39,3 +39,6 @@ is checked against a signed release description and SHA-256 hashes.
 ## Full package
 Your game files are too old for an automatic update. Get the full package from the link in the Discord
 release thread, unpack it and start Start-Coop.cmd.
+
+## Support
+If you enjoy the mod, you can support the servers and updates here: https://buymeacoffee.com/flobo
