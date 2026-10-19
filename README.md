@@ -2,6 +2,8 @@
 
 This repository hosts releases of the Azeroth Survivors Together co-op mod installer and updater, and the source of the updater (MIT licensed, see below).
 
+**Full source (audit copy):** the complete co-op source — the DLL (`avrt.dll`), the network helper, the Python launcher/updater, the shipped profiles, and the build scripts, with instructions to reproduce the released binaries byte-for-byte — is public at https://github.com/bymarvin/azeroth-survivors-source.
+
 ## Install
 1. Download **Azeroth-Survivors-Together-Installer.exe** from the [latest release](../../releases/latest)
    (about 0.4 MB), put it where the game should go (e.g. `D:\Games`) and double-click it.
